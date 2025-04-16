@@ -134,3 +134,25 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+#Dependencies
+node_modules/
+
+#Testing
+/coverage
+
+# Production
+/build
+
+# System Files
+.DS_Store
+.env
+.local
+.cache
+.idea
+*.log
+
+# Optional: IDE and OS files
+.vscode/
